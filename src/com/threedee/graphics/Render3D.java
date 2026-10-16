@@ -108,10 +108,6 @@ public class Render3D extends Render {
 		
 	}
 	
-	// As the name suggests, it limits the render distance however this algorithm is
-	// inefficient.
-	// When called in the Screen class, FPS drops from 900-1000 to 250-320.
-	// Will need to write a more efficient algorithm.
 	public void renderDistanceLimiter() {
 
 		for (int i = 0; i < width * height; i++) {
